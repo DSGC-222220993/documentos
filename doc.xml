@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE documento [
+        <!ELEMENT documento (nombre|destacar|etiqueta|vacio|imagen)*>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT destacar (#PCDATA)>
+        <!ELEMENT etiqueta (#PCDATA)>
+        <!ELEMENT vacio (#PCDATA)>
+        <!ELEMENT imagen (#PCDATA)>
+        ]>
+<documento>
+
+    <nombre>Mi Primer documento XML </nombre>
+        <destacar>
+            importancia = “1”
+        </destacar>
+
+
+    <etiqueta> &lt;documento&gt; </etiqueta>
+         <vacio> </vacio>
+         <imagen>"imagen.gif"</imagen>
+
+</documento>
